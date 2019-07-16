@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Patrick Tyler</title>
+  <title>Patrick Tyler - Resume</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,6 +43,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
@@ -72,12 +75,12 @@
         <p class="lead mb-5">Experienced software developer and motivated self-learner skilled in Java EE development, having worked with many technologies (Spring, Maven, SQL/RDMS, Tomcat, etc.)
 		while building RESTful enterprise applications.<br/>	
 		Strong educational background with a 1st class degree in Computer Science with Artificial Intelligence from the University of Nottingham. Intermediate Japanese language skills 
-		and a dedicated team-player with lots of international experience, having worked in the UK, Netherlands, and Japan.<</p>
+		and a dedicated team-player with lots of international experience, having worked in the UK, Netherlands, and Japan.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/patrick-tyler-443b5458/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/patfromthe90s">
+          <a href="https://github.com/pattyler">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -94,7 +97,8 @@
           <div class="resume-content">
             <h3 class="mb-0">English Instructor</h3>
             <div class="subheading mb-3">NOVA</div>
-            <p>Taught groups of adults, teenagers, and children conversational English and developed their communication skills in a fun, welcoming environment</p>
+            <p><i>Maintained programming skills through <a href="#projects">personal side-projects</a></i>.</p>
+			<p>Taught students conversational English, guiding and mentoring them both in groups and individually.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">November 2015 - June 2019</span>
@@ -105,7 +109,7 @@
           <div class="resume-content">
             <h3 class="mb-0">Junior Solutions Architect</h3>
             <div class="subheading mb-3">SDL Fredhopper</div>
-            <p>Using Java EE technologies and JavaScript, created a sample aysnchronous, responsive web application to demonstrate the best practice usage of Fredhopper software.</p>
+            <p>Developed an aysnchronous, responsive web application using Java / Apache Wicket and JavaScript / Bootstrap to demonstrate the best practice usage of Fredhopper software to company clients.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2014 - August 2015</span>
@@ -116,8 +120,8 @@
           <div class="resume-content">
             <h3 class="mb-0">Java Developer</h3>
             <div class="subheading mb-3">Inspired Gaming Group</div>
-            <p>Using Java (chiefly with Spring and Maven), JavaScript, and PostgreSQL, developed various client/server back-end applications, from responsive reporting of company machines using
-			and overnight batch-job, to a load-balanced, time-critical lottery ticket selection system.</p>
+            <p>Using Java (chiefly with Spring and Maven), JavaScript, and PostgreSQL, developed various client/server back-end applications, from responsive reporting of company FOBT machines using
+		    overnight batch-jobs, to a time-critical, load-balanced lottery ticket selection system that took the company into new international markets.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">October 2012 - May 2014</span>
@@ -128,13 +132,45 @@
           <div class="resume-content">
             <h3 class="mb-0">Software Developer (Summer internship)</h3>
             <div class="subheading mb-3">The University of Nottingham</div>
-            <p>Continuing development of the image matching system written for my dissertation, created a cloud-based system to host the application 
-			along with an Android and Web based client using Java and Spring.</p>
+            <p>Implemented a cloud-based back-end along with an Android and web-based client for <a href="#artmap">image-matching software written for my dissertation</a>.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">July 2012 - September 2012</span>
           </div>
         </div>
+      </div>
+    </section>
+	
+	<hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Article Parser</a></h3>
+            <div class="subheading mb-3">Personal open-source project (View the code <a href = "https://github.com/pattyler/article-parser">on GitHub</a>)</div>
+            <p>A simple system for downloading and parsing online Japanese articles, to aid in Japanese vocabulary study.</p>
+          </div>
+        </div>
+		
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Lottery Selection</h3>
+            <div class="subheading mb-3">Company project (Inspired Gaming)</div>
+            <p>A centralised time-critical system for 'handing out' lottery tickets to FOBT machines over a network, giving the machine a set of win/loss states.</p>
+          </div>
+        </div>
+		
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 id="artmap" class="mb-0">ArtMap Image Matching</h3>
+            <div class="subheading mb-3">University / internship project</div>
+            <p>Search a user's phone / web-server for images matching what the user draws using a simple painting application. Matching scores come from a heuristics-based algorithm.</p>
+          </div>
+        </div>
+		
       </div>
     </section>
 
@@ -149,7 +185,8 @@
             <h3 class="mb-0">The University of Nottingham</h3>
             <div class="subheading mb-3">BSc (Hons)</div>
             <div>Computer Science with Artificial Intelligence</div>
-            <p>1st Class</p>
+            <p>1st Class (Honours)</p>
+			<p>Offered internship by my professor</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2009 - June 2012</span>
